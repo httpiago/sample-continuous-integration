@@ -2,7 +2,7 @@ const assert = require('assert');
 
 var getUsers = () => [{name: 'Anna Wintour'}, {name: 'Fierce'}];
 var gAuth = (obj) => 'mskpjoaJNJASN.WJ098IWM12022822.WKNSJKNWJKNB229202.W';
-var test = (boo) => assert.ok(boo);
+var test = assert.ok;
 
 context('Testando a API', function () {
 
