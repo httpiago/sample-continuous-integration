@@ -1,0 +1,16 @@
+{
+  "name": "sample-continuous-integration",
+  "version": "1.0.0",
+  "description": "Apenas testado o Mocha",
+  "main": "index.js",
+  "repository": "https://github.com/httpiago/sample-continuous-integration.git",
+  "author": "Iago Bruno <httpiago@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "mocha": "^5.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
