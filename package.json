@@ -11,6 +11,7 @@
     "mocha": "^5.1.0"
   },
   "scripts": {
+    "//": "--reporter pode ser 'spec' (padrão), 'progress', 'list', 'min' ... ",
     "test": "mocha"
   }
 }
